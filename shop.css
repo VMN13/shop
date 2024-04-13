@@ -1,0 +1,579 @@
+html 
+{
+	font-size: 16px;
+}
+
+#heat
+ {
+  color: rgb(15, 4, 94);
+  background-color: rgb(226 240 255);
+  border-radius: 10px;
+  width: 100px;
+  height: 70px;
+  font-size: 30px;
+  border:none;
+}
+
+body 
+{
+ width: 100%;
+ max-width: 1600px;
+ padding: 100px 100px;
+}
+
+.box
+ {
+  display: flex;
+  margin: 0 -5px;
+}
+
+.item 
+{
+  flex: 1 1 auto;
+  margin: 0 5px;
+}
+
+.parent 
+{
+  display: grid;
+  justify-content: center;
+  }
+  
+  .div1
+   {
+     grid-area: 3 / 3 / 4 / 4;
+     }
+
+  .div2 
+  { 
+    grid-area: 3 / 4 / 4 / 5; 
+  }
+
+  .div3 
+  { 
+    grid-area: 3 / 5 / 4 / 6;
+   }
+
+#katalog 
+{
+ display: flex;
+}
+
+#bezskidki 
+{
+ color: rgb(255, 0, 144);
+}
+
+#krosovki 
+{
+ display: flex;
+ letter-spacing: 6px;
+ font-size: 20px;
+}
+
+img 
+{
+ width: 400px;
+ height: 500px;
+ border-style: solid;
+ border-radius: 20px;
+ border:none;
+}
+
+#main
+ {
+display: grid;
+}
+
+#cart
+ {
+  color: rgb(255, 255, 255);
+  background-color: #1551E5;
+  border-radius: 10px;
+  font-weight: 500px;
+  width: 300px;
+  height: 70px;
+font-size: 30px;
+padding: 0px;
+}
+
+
+
+
+
+#menu 
+{
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+}
+
+#procent 
+{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 144);
+  border-color: rgb(255, 0, 144);
+}
+
+
+#p1Display 
+{
+  color: rgb(255, 255, 255);
+  background-color: #1551E5;
+  border-radius: 10px;
+  font-weight: 500px;
+  width: 300px;
+  height: 70px;
+  font-size: 30px;
+}
+
+
+#p2Display 
+{
+  color: rgb(255, 255, 255);
+  background-color: #1551E5;
+  border-radius: 10px;
+  font-weight: 500px;
+  width: 300px;
+  height: 70px;
+  font-size: 30px;
+}
+
+
+h1 
+{
+width: 144px;
+height: 28px;
+}
+
+input 
+{
+ width: 731px;
+ height: 30px;
+ border: 1px;
+ border-radius: 8px;
+ border-style: solid;
+ border-color: #F0F3FC;
+ padding: 8px 12px 8px 16px;
+ gap: 16px;
+ background: #FFFFFF;
+ font-size: 20px;
+}
+
+#price 
+{
+ color: blue;
+ border-color: rgb(226 240 255);
+ height: 48px;
+ padding: 12px 24px 12px 24px;
+ font-weight: 600;
+ background-color: rgb(226 240 255);
+ margin-inline-start: 30px;
+ border: none;
+ border-radius: 10px;
+}
+
+#vashMeneger 
+{
+ color: blue;
+ background: rgb(196 215 235);
+ height: 32px;
+ width:159px;
+ padding: 8px 12px 8px 12px;
+ font-weight: 600;
+ background-color: rgb(226 240 255);
+ border: none;
+ border-radius: 5px;
+}
+
+.akcii
+{
+ color: blue;
+ background: rgb(255, 255, 255);
+ height: 32px;
+ width:159px;
+ padding: 8px 12px 8px 12px;
+ font-weight: 600;
+ border:0cap;    
+}
+
+select#ermakov 
+{
+ color: rgb(0, 0, 0);
+ background: rgb(255, 255, 255);
+ height: 48px;
+ padding: 12px 24px 12px 24px;
+ font-weight: 600;
+ margin-inline-start: 30px;
+ border-color: white;
+}
+
+::placeholder 
+ {
+ color:black;
+ }
+
+#zakaz 
+{
+ display: flex;
+ background-color: white;
+ color: rgb(0, 0, 0);
+ border: none;
+}
+
+span.zakaz
+ {
+ color: black;
+ border-color: white;
+ text-decoration: none;
+ }
+
+#block1 
+{
+ display: flex;
+ align-items: flex-start;
+ flex-wrap: nowrap;
+ height: 100%;
+ justify-content: flex-start;
+ border-color: white;
+}
+
+#block2 
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+#htuka
+ {
+  color: blue;
+  background: rgb(196 215 235);
+  height: 32px;
+  width: 159px;
+  padding: 8px 12px 8px 12px;
+  font-weight: 600;
+  background-color: rgb(226 240 255);
+  border: none;
+  border-radius: 5px;
+} 
+
+#idea
+ {
+  color: blue;
+  background: rgb(196 215 235);
+  height: 32px;
+  width: 159px;
+  padding: 8px 12px 8px 12px;
+  font-weight: 600;
+  background-color: rgb(226 240 255);
+  border: none;
+  border-radius: 5px;
+}
+
+#politika 
+{
+  display:flex;
+}
+
+.head
+ {
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  border: none;
+  background-color: white
+}
+
+.button 
+{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  border-color: #F0F3FC;
+  background-color: #ffffff;
+  border: none;
+}
+
+#opisanie {
+ font-size: 30px;
+}
+
+#vacansii
+ {
+  display:flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  color: white;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  gap: 12px;
+  border-radius: 8px; 
+  order:-2;
+}
+
+#upakovka {
+
+}
+
+button#menu
+ {
+  color: rgb(255, 255, 255);
+  background-color: #1551E5;
+  border-radius: 10px;
+  font-weight: 500px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+ }
+
+ #men 
+ {
+  color: rgb(255, 255, 255);
+  background-color: #1551E5;
+  border-radius: 10px;
+  font-weight: 500px;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+ }
+
+#harakteristiki
+ {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: space-around;
+ align-items: center;
+ }
+
+#spisok
+ {
+  display: flex;
+  justify-content: space-around
+ }
+
+#foot
+ {
+ display:flex;
+ justify-content: space-evenly;
+ }
+
+#support
+{
+ display: flex;
+align-items: baseline;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+align-content: stretch;
+justify-content: space-between;
+}
+
+#nomer 
+{
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+#support2 
+{
+display: flex;
+flex-direction: column;
+align-content: stretch;
+justify-content: space-around;
+align-items: baseline;
+}
+
+#vacansii
+{
+ display: flex;
+ flex-direction: row-reverse;
+ align-content: center;
+ justify-content: normal;
+ align-items: center;
+}
+
+p#politika
+ {  
+ display: flex;
+ justify-content: center;
+ }
+
+#compo
+ {
+ background-color: #ffffff;
+ color: rgb(0, 0, 0);
+ border: none;
+ font-size: 10px;
+ letter-spacing: -2px;
+ font-size: 10px;
+ font-weight: 100;
+ }
+
+#footer
+ {
+ display: flex;
+ justify-content: center;
+ align-items: baseline;
+}
+
+#com
+ {
+  color: rgb(74, 71, 71);  
+ }
+
+#razrabotka
+ {
+  color: rgb(74, 71, 71); 
+}
+
+A 
+{
+ color: rgb(74, 71, 71); 
+ text-decoration: none;
+ }
+
+P 
+{
+ color: rgb(74, 71, 71); 
+ }
+
+ h1
+  {
+ color: rgb(0, 0, 0); 
+ font-weight: 700;
+   }
+
+h2 
+{
+ color: rgb(0, 0, 0);
+}
+
+h3
+ {
+ color: rgb(74, 71, 71); 
+ }
+
+.colortext
+ {
+ color: blue;
+ }
+
+#opisanie 
+{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: flex-start;
+align-items: flex-start;
+}
+ 
+ h1 {
+  margin:75px auto 0 auto;
+  text-align:center;
+  font-weight:200;
+  color:#4b4b4b;
+  padding: 30px;
+ }
+  
+ #toggles
+  {
+  width:60px;
+  margin:50px auto;
+  text-align:center;
+ }
+  
+ .ios-toggle,.ios-toggle:active 
+ {
+  box-sizing: border-box;
+  position:absolute;
+  top:-5000px;
+  height:0;
+  width:0;
+  opacity:0;
+  border:none;
+  outline:none;
+ }
+  
+ .checkbox-label
+  {
+  box-sizing: border-box;
+  display:block;
+  position:relative;
+  padding:10px;
+  margin-bottom:20px;
+  font-size:12px;
+  line-height:16px;
+  width:100%;
+  height:36px;
+  border-radius:18px;
+  background:#f8f8f8;
+  cursor:pointer;
+ }
+  
+ .checkbox-label:before 
+ {
+  box-sizing: border-box;
+  content:'';
+  display:block;
+  position:absolute;
+  z-index:1;
+  line-height:34px;
+  text-indent:40px;
+  height:36px;
+  width:36px;
+  border-radius:100%;
+  top:0px;
+  left:0px;
+  right:auto;
+  background:white;
+  box-shadow:0 3px 3px rgba(0,0,0,.2),0 0 0 2px #dddddd;
+  -webkit-transition: .25s ease-in-out;
+ }
+  
+ .checkbox-label:after
+  {
+  box-sizing: border-box;
+  content:attr(data-off);
+  display:block;
+  position:absolute;
+  z-index:0;
+  top:0;
+  left:-300px;
+  padding:10px;
+  height:100%;
+  width:300px;
+  text-align:right;
+  color:#bfbfbf;
+  white-space:nowrap;
+  -webkit-transition: .25s ease-in-out;
+ }
+  
+ .ios-toggle:checked + .checkbox-label 
+ {
+  box-shadow:inset 0 0 0 20px rgba(19,191,17,1),0 0 0 2px rgba(19,191,17,1);
+ }
+  
+ .ios-toggle:checked + .checkbox-label:before
+  {
+  left:calc(100% - 36px);
+  box-shadow:0 0 0 2px transparent,0 3px 3px rgba(0,0,0,.3);
+ }
+  
+ #checkbox3 + .checkbox-label 
+ {
+  box-shadow:inset 0 0 0 0px #1f60c8,0 0 0 2px #dddddd;
+ }
+  
+ #checkbox3:checked + .checkbox-label
+  {
+  box-shadow:inset 0 0 0 20px #1f60c8,0 0 0 2px  #1f60c8;
+ }
+  
+ #checkbox3:checked + .checkbox-label:after
+  {
+  color:#1fc1c8;
+ }
